@@ -1,0 +1,102 @@
+body {
+    background: linear-gradient(90deg, #ff0000 0%, #7f169c 75%, #000 100%, #ffffff 100%);
+
+}
+
+p{
+    color: aqua;
+}
+
+.navbar-nav .nav-link {
+    color: aquamarine;
+}
+.nav-link active {
+    color: blueviolet;
+}
+.navbar-nav .nav-link.active {
+    color: blanchedalmond;
+}
+.navbar-brand {
+    color: aquamarine;
+}
+.navbar-brand:focus, .navbar-brand:hover {
+    color: azure;
+}
+.navbar-toggler {
+    color: blue;
+}
+.sidebar {
+    color: hsl(247, 95%, 7%);
+    background: linear-gradient(270deg, #ff0000 0%, #d11c9b 50%, #fd9800 90% );
+}
+.card {
+    background: linear-gradient(270deg, #ff0000 0%, #d11c9b 50%, #fa8500 90% );
+}
+.card a {
+    text-decoration: none;
+    color: hsl(247, 95%, 7%);
+}
+
+.slide-text,
+.footer-text{
+    color: aqua;
+    margin:auto auto ;
+}
+
+footer,
+.btn-outline-primary{
+    background: linear-gradient(270deg, #ff0000 0%, #d11c9b 50%, #fa8500 90% );
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-anim {
+    animation: call 2s ease 0s infinite normal forwards;
+}
+
+@keyframes call {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(-6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(-2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(1.2deg);
+	}
+}
+
+@media (max-width: 755px){
+    .carousel-indicators {
+        display: none;
+    }
+    
+}
+
+/* .navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(270deg, #ff0000 0%, #d11c9b 50%, #fa8500 90% );
+} */
+
